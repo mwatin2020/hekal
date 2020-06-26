@@ -82,7 +82,7 @@ class FirestoreCRUDPageState extends State<FirestoreCRUDPage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
-       print("object");
+       updateData();
         },
       ),
     );
@@ -109,7 +109,7 @@ class FirestoreCRUDPageState extends State<FirestoreCRUDPage> {
     await db
         .collection('CRUD')
         .document(doc.documentID)
-        .updateData({'todo': 'please 🤫'});
+        .updateData({'todo': 'please ةةة🤫'});
   }
 
   void deleteData(DocumentSnapshot doc) async {
