@@ -82,7 +82,7 @@ class FirestoreCRUDPageState extends State<FirestoreCRUDPage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
-       updateData();
+
         },
       ),
     );
